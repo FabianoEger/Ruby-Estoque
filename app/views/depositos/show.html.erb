@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Produto:</strong>
+  <%= @deposito.produto %>
+</p>
+
+<p>
+  <strong>Quantidade:</strong>
+  <%= @deposito.quantidade %>
+</p>
+
+<%= link_to 'Edit', edit_deposito_path(@deposito) %> |
+<%= link_to 'Back', depositos_path %>
